@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>login base</title>
+</head>
+
+<body>
+    <div id="area_externa">
+        <p id="imagem"><img src="logo.png" alt="logo_base"></p>
+        <form id="area_login" onsubmit="validar_login()">
+
+            <label for="email" class="texto_caixa email">Email:</label>
+            <input id="email1" placeholder="digite seu email" type="email" name="email" required>
+
+            <label for="senha" class="texto_caixa senha">Senha:</label>
+            <input id="senha1" placeholder="digite sua senha" type="password" required>
+
+            <input id="checagem" type="checkbox">
+
+            <label id="checagem_dois">Continuar logado?</label>
+            <input id="botao" type="submit" value="Login">
+        </form>
+
+    </div>
+    <script src="interacao.js"></script>
+</body>
+
+</html>
